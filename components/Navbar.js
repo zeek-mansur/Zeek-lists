@@ -1,3 +1,4 @@
+/* eslint no-use-before-define: 0 */
 import Link from "next/link"
 import Image from 'next/image'
 
