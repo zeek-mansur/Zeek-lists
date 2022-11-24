@@ -1,7 +1,7 @@
 const Footer = () => {
     return (  
         <footer>
-            Copyright 2021 Zeek list
+            Copyright 2022 Zeek list
         </footer>
     );
 }
