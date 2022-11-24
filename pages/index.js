@@ -2,11 +2,16 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import Footer from './components/Footer'
-import Navbar from './components/NavBar'
+import Footer from '../components/Footer'
+import Navbar from '../components/NavBar'
 
 export default function Home() {
   return (
+   <>
+   <Head>
+    <title>Zeek List | Home</title>
+    <meta name='keywords' content='zeek' />
+   </Head>
     <div>
      <h1 className={styles.title}>Homepage</h1>
      <p className={styles.text}>
@@ -16,5 +21,6 @@ export default function Home() {
        See Zeek list
      </Link>
     </div>
+   </>
   )
 }
